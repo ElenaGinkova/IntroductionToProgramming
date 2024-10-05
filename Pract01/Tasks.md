@@ -10,7 +10,7 @@ int main()
   int first = 5;
   int second = 4;
   std::cout << first / second * 5 << std::endl;
-  std::cout < <second / first * 5 << std::endl;
+  std::cout << second / first * 5 << std::endl;
 }
 ```
 2) 
