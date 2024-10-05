@@ -79,6 +79,16 @@ int main()
     int main()
     {
       int a=3;
+      std::cout<<(++a)++;
+      return 0;
+    }
+```
+
+8)
+```C++
+    int main()
+    {
+      int a=3;
       std::cout<<++a++++;
       return 0;
     }
