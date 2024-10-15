@@ -43,9 +43,8 @@ int main()
 
 int main()
 {
-  bool var = false;
-  std::cout << (var || true) << std::endl;
-  std::cout << var || true << std::endl; // приоритет
+  bool var = true;
+  std::cout << (var || false) << std::endl;
   std::cout << !(var && true || 0);
 }
 ```
@@ -77,8 +76,8 @@ int main()
 ```C++
     int main()
     {
-      int a=3;
-      std::cout<<(++a)++;
+      int a = 3;
+      std::cout<< ++a++;
       return 0;
     }
 ```
@@ -87,8 +86,8 @@ int main()
 ```C++
     int main()
     {
-      int a=3;
-      std::cout<<++a++++;
+      int a = 3;
+      std::cout<< ++a++++;
       return 0;
     }
 ```
