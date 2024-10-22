@@ -133,8 +133,8 @@ int main()
 
 int main()
 {
-    int num;
-    std::cin>>num;
+    int a;
+    std::cin>>a;
     
     if(a!=4)
     {
