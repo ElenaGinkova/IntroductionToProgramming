@@ -132,7 +132,7 @@ int main()
 int main()
 {
   int counter = 0;
-  while (counter < 1000)
+  while (counter < 100)
   {
     ++counter;
     if (counter % 2 != 0)
