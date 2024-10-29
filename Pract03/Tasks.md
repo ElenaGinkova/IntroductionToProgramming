@@ -13,12 +13,16 @@ int main()
   {
     std::cout << iterator-- << ' ';
     if(iterator < 7 && iterator > 2)
+    {
       break;
+    }
+
     else if (iterator = 7)
     {
       std::cout << "* ";
     }
-  } while ( iterator > 0 )
+
+  } while ( iterator > 0 );
 }
 ```
 
@@ -32,15 +36,18 @@ int main()
   while(iterator %= 2 + 1)
   {
     std::cout << '*';
+
     if(iterator > 2)
     {
        break;
     }
+
     if(iterator == 1)
     {
         continue;
     }
   }
+  return 0;
 }
 ```
 
@@ -53,8 +60,11 @@ int main()
   int number = 20;
   std::cout << --number--; 
   std::cout << number - 5;
+
+  return 0;
 }
 ```
+
 4.
 ```c++
 #include <iostream>
@@ -74,6 +84,7 @@ int main()
         std::cout << --i << std::endl;
         i += 7;
     }
+    return 0;
 }
 ```
 
@@ -89,6 +100,7 @@ int main()
         a--;
         continue;
     } while(a++);
+    return 0;
 }
 ```
 
