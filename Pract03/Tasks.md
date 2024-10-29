@@ -4,7 +4,7 @@
 
 1. 
 ```c++
-#include iostream
+#include <iostream>
 
 int main()
 {
@@ -24,7 +24,7 @@ int main()
 
 2.
 ```c++
-#include iostream
+#include <iostream>
 
 int main()
 {
@@ -46,7 +46,7 @@ int main()
 
 3.
 ```c++
-#include iostream
+#include <iostream>
 
 int main()
 {
@@ -94,28 +94,42 @@ int main()
 
 5.
 ```c++
-unsigned i = 0;
-while(true)
+#include <iostream>
+int main()
 {
-    if(i == 99) {
+  unsigned i = 0;
+  while(true)
+  {
+    if(i == 99)
+    {
         break; 
-    } else {
+    }
+    else
+    {
         ++i;
     }
     std::cout<<i<<std::endl;
+  }
+  return 0;
 }
 ```
 
 6.
 ```c++
-int counter = 0;
-while (counter < 1000)
+#include <iostream>
+int main()
 {
+  int counter = 0;
+  while (counter < 1000)
+  {
     ++counter;
-    if (counter % 2 != 0) {
+    if (counter % 2 != 0)
+    {
         continue;
     }
     std::cout << counter << “ “;
+  }
+  return 0;
 }
 ```
 ![image](https://github.com/user-attachments/assets/e320844f-4e70-4d5b-831b-353fbbaaee0d)
