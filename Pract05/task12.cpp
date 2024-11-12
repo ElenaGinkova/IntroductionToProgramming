@@ -9,7 +9,7 @@ bool areAllSymbUnique(const int arr[], int size) // int* arr
         {
             return false;
         }
-        histogram[index] = true;
+        histogram[index] = true;//mark the last raed number
     }
     return true;
 }
