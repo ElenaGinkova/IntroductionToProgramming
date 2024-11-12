@@ -5,8 +5,8 @@ void productArrays(const int arr1[], int size1, const int arr2[], int size2, int
     int minSize = 0;
     if (size1 > size2)
     {
-        size3 = size1;
-        minSize = size2;
+        size3 = size1;//max
+        minSize = size2;//min
     }
     else {
         size3 = size2;
