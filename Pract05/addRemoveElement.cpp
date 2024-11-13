@@ -1,5 +1,7 @@
 #include <iostream>
 
+const int MAX_SIZE = 100;
+
 void removeElement(int arr[], int& size, int pos)
 {
 	for (int i = pos; i < size - 1; i++)
@@ -34,7 +36,6 @@ void print(const int arr[], int size)
 
 int main()
 {
-	const int MAX_SIZE = 100;
 	int arr[MAX_SIZE] = { 1,2,3,4,5 };
 	int size = 5;
 	print(arr, size);
