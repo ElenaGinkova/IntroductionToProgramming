@@ -31,7 +31,6 @@ void productArrays(const int arr1[], int size1, const int arr2[], int size2, int
 
 }
 
-
 int findMax(const int a, const int b)
 {
     return a > b ? a : b;
