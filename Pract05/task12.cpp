@@ -1,5 +1,5 @@
 #include <iostream>
-const int MAX_NUM = 20;
+const int MAX_NUM = 21;
 const int MAX_SIZE = 100;
 
 bool areAllSymbUnique(const int arr[], int size) // int* arr 
