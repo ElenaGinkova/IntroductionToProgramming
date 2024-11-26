@@ -22,12 +22,13 @@ char numToSymb(int num)
 void sumNums(const char num1[],const char num2[], int size, int K, char res[])
 {
 	int carry = 0;
+	int pos = size - 1;
 	//from rightToLeft
 	for (int i = size - 1; i >= 0; i--)
 	{
 		int dig1 = symbToNum(num1[i]);
 		int dig2 = symbToNum(num2[i]);
-		res[i + 1] = numToSymb((dig1 + dig2 + carry) % K);
+		res[pos--] = numToSymb((dig1 + dig2 + carry) % K);
 		carry = (dig1 + dig2 + carry) / K;
 	}
 	if(carry)
