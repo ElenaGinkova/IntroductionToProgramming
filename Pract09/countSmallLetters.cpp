@@ -1,6 +1,6 @@
 #include <iostream>
 
-void printCounter(const int* counter, int size = 26)
+void printCounter(const int* counter, int size)
 {
 	if (!counter)
 	{
@@ -21,7 +21,8 @@ void countSmallLetters(const char* str)
 		return;
 	}
 
-	int counter[26]{};
+	const int LETTERS_COUNT = 26;
+	int counter[LETTERS_COUNT]{};
 
 	while (*str != '\0')
 	{
@@ -35,7 +36,7 @@ void countSmallLetters(const char* str)
 		str++;
 	}
 
-	printCounter(counter, 26);
+	printCounter(counter, LETTERS_COUNT);
 }
 
 int main()
