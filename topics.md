@@ -12,7 +12,7 @@
 
 [**Тема 7:**](https://github.com/ElenaGinkova/IntroductionToProgramming/blob/main/Pract07/Readme.md) Бройни системи.
 
-[**Тема 8:**] Побитови операции.
+[**Тема 8:**](https://github.com/ElenaGinkova/IntroductionToProgramming/blob/main/Pract08/Readme.md) Побитови операции.
 
 [**Тема 9:**] Символни низове.
 
