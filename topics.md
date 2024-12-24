@@ -4,7 +4,7 @@
 
 [**Тема 3:**](https://github.com/ElenaGinkova/IntroductionToProgramming/blob/main/Pract03/Readme.md) Цикли. Оператори break и continue.
 
-**Тема 4:** Функции - част 1.
+[**Тема 4:**](https://github.com/ElenaGinkova/IntroductionToProgramming/blob/main/Pract04/Readme.md) Функции - част 1.
 
 **Тема 5:** Функции - част 2. Референции.
 
