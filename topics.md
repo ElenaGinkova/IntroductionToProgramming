@@ -16,6 +16,6 @@
 
 [**Тема 9:**](https://github.com/ElenaGinkova/IntroductionToProgramming/blob/main/Pract09/Readme.md) Символни низове.
 
-[**Тема 10:**] За проектите. Динамична памет. 
+[**Тема 10:**](https://github.com/ElenaGinkova/IntroductionToProgramming/blob/main/Pract10/Readme.md) За проектите. Динамична памет. 
 
 **Тема 11:** Динамична памет.
