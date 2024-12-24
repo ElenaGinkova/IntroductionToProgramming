@@ -10,7 +10,7 @@
 
 [**Тема 6:**](https://github.com/ElenaGinkova/IntroductionToProgramming/blob/main/Pract06/Readme.md) Статични масиви.
 
-[**Тема 7:**] Бройни системи.
+[**Тема 7:**](https://github.com/ElenaGinkova/IntroductionToProgramming/blob/main/Pract07/Readme.md) Бройни системи.
 
 [**Тема 8:**] Побитови операции.
 
