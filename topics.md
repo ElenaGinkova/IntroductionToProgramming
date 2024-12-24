@@ -14,7 +14,7 @@
 
 [**Тема 8:**](https://github.com/ElenaGinkova/IntroductionToProgramming/blob/main/Pract08/Readme.md) Побитови операции.
 
-[**Тема 9:**] Символни низове.
+[**Тема 9:**](https://github.com/ElenaGinkova/IntroductionToProgramming/blob/main/Pract09/Readme.md) Символни низове.
 
 [**Тема 10:**] За проектите. Динамична памет. 
 
