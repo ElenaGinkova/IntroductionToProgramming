@@ -1,4 +1,4 @@
-[**Тема 1:**]([IntroductionToProgramming/tree/main/Pract01](https://github.com/ElenaGinkova/IntroductionToProgramming/tree/main/Pract01)) Увод. Примитивни типове данни и преобразуване между тях. Оператори - част 1.
+[**Тема 1:**](https://github.com/ElenaGinkova/IntroductionToProgramming/blob/main/Pract01/Readme.md) Увод. Примитивни типове данни и преобразуване между тях. Оператори - част 1.
 
 **Тема 2:** Оператори - част 2. Условни конструкции - if, switch и тернарен оператор.
 
