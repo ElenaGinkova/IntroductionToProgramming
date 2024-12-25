@@ -1,5 +1,3 @@
-Course at FMI SI
-
 [**Тема 1:**](https://github.com/ElenaGinkova/IntroductionToProgramming/blob/main/Pract01/Readme.md) Увод. Примитивни типове данни и преобразуване между тях. Оператори - част 1.
 
 [**Тема 2:**](https://github.com/ElenaGinkova/IntroductionToProgramming/blob/main/Pract02/Readme.md) Оператори - част 2. Условни конструкции - if, switch и тернарен оператор.
