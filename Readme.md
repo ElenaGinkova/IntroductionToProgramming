@@ -18,4 +18,6 @@
 
 [**Тема 10:**](https://github.com/ElenaGinkova/IntroductionToProgramming/blob/main/Pract10/Readme.md) За проектите. Динамична памет. 
 
-**Тема 11:** Динамична памет.
+[**Тема 11:**](https://github.com/ElenaGinkova/IntroductionToProgramming/tree/main/Pract11) Динамична памет.
+
+**Тема12** Рекурсия. Сортировки.
