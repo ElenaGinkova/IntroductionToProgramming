@@ -20,4 +20,4 @@
 
 [**Тема 11:**](https://github.com/ElenaGinkova/IntroductionToProgramming/tree/main/Pract11) Динамична памет.
 
-**Тема12** Рекурсия. Сортировки.
+[**Тема12**](https://github.com/ElenaGinkova/IntroductionToProgramming/tree/main/Pract12) Рекурсия. Сортировки.
