@@ -1,0 +1,187 @@
+#include <iostream>
+    #include <cmath>
+void task1(int number){
+    if(number <= 0 || number>31){
+        printf("0\n");
+        return;
+    }
+    printf("1\n");
+}
+void task2(int number){
+    if(number % 2 == 0 && number % 3 != 0){
+        printf("0\n");
+        return;
+    };
+}
+void task3(){
+    int a,b;
+    std::cout << "Enter Divident :";
+    std::cin >> a;
+    std::cout << "Enter Divisor :";
+    std::cin >> b;
+    std::cout << "Quotient: " << a / b << '\n' << "Remainder:" << a % b << std::endl;
+}
+void task4(int number){
+    int lastNumber = number % 10;
+    int numberOfDigits = 4;
+    int mirrorNumber = 0;
+    while(--numberOfDigits >= 0){
+        int lastNumber = number % 10;
+        number /= 10;
+        mirrorNumber *= 10;
+        mirrorNumber += lastNumber;
+    }
+    std::cout << mirrorNumber << std::endl;
+}
+void task5(int number){
+   int mirrorNumber = 0;
+   int tempNumber = number;
+   for(int i = 0; i < 3;i++){
+    int lastNumber = tempNumber % 10;
+    tempNumber /= 10;
+    mirrorNumber *= 10;
+    mirrorNumber += lastNumber;
+   }
+   std:: cout << mirrorNumber << '\n';
+   if(mirrorNumber == number){
+    std::cout << "True" << '\n';
+   }else{
+    std::cout << "False" << '\n';
+   }
+}
+void task6(){
+    float miles;
+    std::cin >> miles;
+    std::cout.precision(7);
+    std::cout <<miles * 0.621371 <<'\n'; 
+}
+void task7(){
+    int number1,number2,number3,number4;
+    std::cin >> number1 >> number2 >> number3 >> number4;
+    int array[] = {number1,number2,number3,number4};
+    for(int i = 1; i <= 2;i++){
+        if(array[i-1] * array[0] != array[i] || number4 != number3 * number1){
+            std::cout << 0 << '\n'; 
+            return;
+        }
+    }
+    std::cout << 1 << '\n';
+}
+void task8(){
+    int number;
+    for(int i = 0; i < 3;i++){
+        std::cin >> number;
+        if(number < 0){
+            std::cout << 1 << '\n';
+            return;
+        }
+    }
+    std::cout << 0 << '\n';
+}
+void task9(){
+   int a,b,x;
+   std::cin >> a >> b >> x;
+   if(x >= a && x <= b){
+        std::cout << 1 << '\n';
+   }
+   std::cout << 0 << '\n'; 
+}
+void task10(){
+    int number;
+    std::cin >> number;
+    int array[4];
+    for(int i = 0; i < 4;i++){
+        array[i] = number % 10;
+        number /= 10;
+    }
+    int sum = 0;
+    for(int i = 0; i < 4;i++){
+        sum += array[i];   
+    }
+    int multiplication = 1;
+    for(int i = 0; i < 4;i++){
+        multiplication *= array[i];
+    }
+    double avg = 0;
+    for(int i = 0; i < 4;i++){
+        avg += array[i];
+    }
+    avg /= 4;
+    std::cout << sum << '\t' << multiplication << '\t' << avg << '\n';
+}
+int neededForTask11(int number){
+    int retVal = 1;
+    for(int i = 1; i <= number;i++){
+        retVal *= i;
+    };
+    return retVal;
+}
+void task11(){
+    int a,b,c,x;
+    std::cin >> a >> b >> c >> x;
+    int recursionForX = neededForTask11(x);
+    int answerForTask = (a*recursionForX) + (b*x) + c;
+    std::cout << answerForTask << std::endl;
+}
+void task12(){
+    int number1,number2,number3;
+    std::cin >> number1 >> number2 >> number3;
+    if(number1 == number2 || number2 == number3 || number3 == number1){
+        std::cout << 0 << '\n';
+        return;
+    }
+    std::cout << 1 << '\n';
+}
+void task13(){
+    double number1,number2,number3;
+    std::cin >> number1 >> number2 >> number3;
+    double perimeter = number1 + number2 + number3;
+    double halfPerimeter = perimeter / 2;
+    double result = sqrt(halfPerimeter*(halfPerimeter-number1)*(halfPerimeter-number2)*(halfPerimeter-number3));
+    std::cout << "Area = " << result << ", Perimeter = " << perimeter << '\n';   
+}
+void task14(int number){
+    int days,hours,minutes,seconds;
+    days = number %365;
+    number /=365;
+    hours = number % 24;
+    number /= 24;
+    minutes = number % 60;
+    minutes /= 60;
+    seconds = number % 60;
+    std::cout << days<<" days, "<< hours<<" hours, "<<minutes<<" minutes" << seconds<<" seconds" << '\n';
+}
+int main(){
+    int number;
+    // scanf("%d",&number);
+    // task1(number);
+    // std::cin >> number;
+    // std::cout << "test for out of bounds, otherwise it will be annoying to test that multiple times" << '\n';
+    // task1(number);
+    // std::cin >> number;
+    // task2(number);
+    // std::cout << "test for out of bounds, otherwise it will be annoying to test that multiple times" << '\n';
+    // std::cin >> number;
+    // task2(number);
+    // int number2;
+    // task3();
+    // std::cin >> number >> number2;
+    // std::cout << "test for out of bounds, otherwise it will be annoying to test that multiple times" << '\n';
+    // task3();
+    // std::cin >> number;
+    // task4(number);
+    // std::cin >> number;
+    // task5(number);
+    // task6();
+    // task7();
+    // task8();
+    // task9();
+    // task10();
+    // task11();
+    // task12();
+    // task13();
+    std::cin >> number;
+    task14(number);
+    // I will be attending the lectures, so do tell if you encounter any issues
+    return 0;
+}
